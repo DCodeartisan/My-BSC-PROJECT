@@ -43,3 +43,15 @@ a {
 th, caption {
     text-align: left;
 }
+
+@media (max-width: 1300px) {
+    .table-display {
+      display: none;
+    }
+  }
+
+@media (min-width: 1300px) {
+    .m-display {
+      display: none;
+    }
+  }
