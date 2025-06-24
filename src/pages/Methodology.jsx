@@ -67,7 +67,7 @@ function Methodology() {
         <span className="pr-4">3.8</span> reliability of the instrument
       </h2>
       <p className='py-6'>
-        The researcher used a test re-test method to ensure the reliability of the research instrument. This was carried out by administering the Mathematics Achievement Test twice to the same set of students (few outside the sample selected as representative of the study) within a given period of time between the two periods of administration of which the testees’ responses will be correlated so as to determine the correlation coefficient.
+        The researcher used a test re-test method to ensure the reliability of the research instrument. This was carried out by administering the Mathematics Achievement Test twice to the same set of students (few outside the sample selected as representative of the study) within a given period of time between the two periods of administration of which the testees' responses will be correlated so as to determine the correlation coefficient.
       </p>
 
       <h2 className="uppercase">

@@ -1,15 +1,34 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 
 function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  const [activeMenu, setActiveMenu] = useState(location.pathname);
+
   const toggleSidebar = () => setIsOpen(!isOpen);
 
-  const handleClose = () => {
+  const handleClose = (path) => {
+    setActiveMenu(path);
     if (window.innerWidth < 768) {
       setIsOpen(false);
     }
   };
+
+  const menuItems = [
+    { path: "/", name: "Title Page" },
+    { path: "/certification", name: "Certification" },
+    { path: "/approval", name: "Approval" },
+    { path: "/dedication", name: "Dedication" },
+    { path: "/acknowledgement", name: "Acknowledgement" },
+    { path: "/abstract", name: "Abstract" },
+    { path: "/introduction", name: "Chapter One: Introduction" },
+    { path: "/literature-review", name: "Chapter Two: Literature Review" },
+    { path: "/methodology", name: "Chapter Three: Methodology" },
+    { path: "/data-analysis", name: "Chapter Four: Data Analysis" },
+    { path: "/conclusion", name: "Chapter Five: Conclusion" },
+    { path: "/references", name: "References" }
+  ];
 
   return (
     <>
@@ -18,11 +37,7 @@ function Sidebar() {
         onClick={toggleSidebar}
         className="md:hidden fixed top-0 left-0 uppercase w-full text-center dark:bg-[#2e3952] bg-[#0f172a] text-[#f8fafc] font-bold py-3 border border-[#f8fafc] z-50"
       >
-        {isOpen ? (
-          <h3 className="uppercase">Close</h3>
-        ) : (
-          <h3 className="uppercase">Table of Contents</h3>
-        )}
+        {isOpen ? 'Close' : 'Table of Contents'}
       </button>
 
       {/* Sidebar */}
@@ -31,13 +46,6 @@ function Sidebar() {
           isOpen ? 'translate-x-0 md:w-90 w-full' : '-translate-x-full'
         } md:translate-x-0 md:flex md:flex-col md:block`}
       >
-        <button
-          onClick={toggleSidebar}
-          className="md:hidden fixed top-0 left-0 uppercase w-full text-center dark:bg-[#2e3952] bg-[#0f172a] text-[#f8fafc] font-bold py-3 border border-[#f8fafc] z-50"
-        >
-          {isOpen && <h3 className="uppercase">Close</h3>}
-        </button>
-
         <div className="flex flex-col items-center mb-6 mt-10 md:mt-0 px-4">
           <h2 className="text-lg uppercase text-center pb-6">
             <strong>
@@ -51,55 +59,29 @@ function Sidebar() {
         </div>
 
         <nav className="flex flex-col font-bold gap-6 px-6">
-          <Link to="/" className="menu" onClick={handleClose}>
-            Title Page
-          </Link>
-          <Link to="/certification" className="menu" onClick={handleClose}>
-            Certification
-          </Link>
-          <Link to="/approval" className="menu" onClick={handleClose}>
-            Approval
-          </Link>
-          <Link to="/dedication" className="menu" onClick={handleClose}>
-            Dedication
-          </Link>
-          <Link to="/acknowledgement" className="menu" onClick={handleClose}>
-            Acknowledgement
-          </Link>
-          <Link to="/abstract" className="menu" onClick={handleClose}>
-            Abstract
-          </Link>
-          <Link to="/introduction" className="menu" onClick={handleClose}>
-            Chapter One: Introduction
-          </Link>
-          <Link to="/literature-review" className="menu" onClick={handleClose}>
-          Chapter Two: Literature Review
-          </Link>
-          <Link to="/methodology" className="menu" onClick={handleClose}>
-          Chapter Three: Methodology
-          </Link>
-          <Link to="/data-analysis" className="menu" onClick={handleClose}>
-          Chapter Four: Data Analysis
-          </Link>
-          <Link to="/conclusion" className="menu" onClick={handleClose}>
-          Chapter Five: Conclusion
-          </Link>
-          <Link to="/references" className="menu" onClick={handleClose}>
-            References
-          </Link>
+          {menuItems.map((item) => (
+            <Link
+              key={item.path}
+              to={item.path}
+              className={`menu ${activeMenu === item.path ? 'text-[#64748b] font-900 underline' : ''}`}
+              onClick={() => handleClose(item.path)}
+            >
+              {item.name}
+            </Link>
+          ))}
           <a
-            className="menu"
+            className={`menu ${activeMenu === '/appendix-i' ? 'text-[#64748b] font-900 underline' : ''}`}
             href="/Appendix I.pdf"
             target="_blank"
-            onClick={handleClose}
+            onClick={() => handleClose('/appendix-i')}
           >
             Appendix I
           </a>
           <a
-            className="menu"
+            className={`menu ${activeMenu === '/appendix-ii' ? 'text-[#64748b] font-900 underline' : ''}`}
             href="/Appendix II.pdf"
             target="_blank"
-            onClick={handleClose}
+            onClick={() => handleClose('/appendix-ii')}
           >
             Appendix II
           </a>

@@ -6,7 +6,7 @@ function References() {
       </h1>
      
       <p className='py-6'>
-        Adeniyi C.O & Akinoso S.O (2019). Effects of Inductive Method of Teaching on Secondary School Students’ Achievement in Mathematics. Fudjer, Vol. 4, No I, June, 2019 ISSN 2636-5103.
+        Adeniyi C.O & Akinoso S.O (2019). Effects of Inductive Method of Teaching on Secondary School Students' Achievement in Mathematics. Fudjer, Vol. 4, No I, June, 2019 ISSN 2636-5103.
         <br /><br />
         Akomolafe, M.J. (2010). Measured Influence of Self-Concept and Gender in Secondary School Students Academic Performance in Ondo State, Nigeria. Educational thought Journal, 7(1): 1-10.
         <br /><br />
@@ -20,9 +20,9 @@ function References() {
         <br /><br />
         Eryilmaz, A. (2014). Perceived Personality Traits and Types of Teachers and Their Relationship to the Subjective Well-Being and Academic Achievements of Adolescents. Educational sciences: Theory and practice, 14(6), 2049 2062.
         <br /><br />
-        Helena Otto. New General Mathematics for Senior Secondary Schools 2 (Teacher’s Guide). ISBN 9781292119755.
+        Helena Otto. New General Mathematics for Senior Secondary Schools 2 (Teacher's Guide). ISBN 9781292119755.
         <br /><br />
-        Igwe, I. O. (2017). Students’ Perception of Chemistry Teachers’ Characteristics of Interest, Attitude and Subject Mastery in the Teaching of Chemistry in Senior Secondary Schools, Journal of Chemistry: Education Research and Practice, 1(1), 1-8.
+        Igwe, I. O. (2017). Students' Perception of Chemistry Teachers' Characteristics of Interest, Attitude and Subject Mastery in the Teaching of Chemistry in Senior Secondary Schools, Journal of Chemistry: Education Research and Practice, 1(1), 1-8.
         <br /><br />
         Jagat, K.P (2020). The effective role of inductive method in teaching, learning mathematics in secondary school level International Journal of Latest Engineering and Management Research (IJLEMR) ISSN: 2455-4847 www.ijlemr.com || Volume 05 - Issue 12 ||December 2020 || PP. 27-34.
         <br /><br />
@@ -68,7 +68,7 @@ function References() {
         <br /><br />
         Waldron, J. (2017). Who is a Teacher? Retrieved on 7/5/2017 from http://billiards.colostate.edu, Retrieved on May 23. Walizer, N. (2014). What Is a Teacher? Retrieved on 7/5/2017 from https://www.huffpost.com/entry/ what is-a-teacher_b_5545882. Woolfolk, A. (2007). Educational psychology, Boston: Pearson.
         <br /><br />
-        Yara, P. O. (2009). Students’ attitude towards mathematics and academic achievement in some selected secondary schools in south-western Nigeria. European Journal of Science Research, 36(3), 336341.
+        Yara, P. O. (2009). Students' attitude towards mathematics and academic achievement in some selected secondary schools in south-western Nigeria. European Journal of Science Research, 36(3), 336341.
       </p>
     </div>
   )

@@ -32,9 +32,29 @@ function DataAnalysis() {
         </div>
         <hr />
         <div className="grid grid-cols-4 py-2">
-          <p className="col-span-2">Akintan Senior Grammar School <br/> Birrel Avenue Senior High School	<br/> Lagos City Senior College <br/>Stadium Senior High School <br/>Total</p>
-          <p>48 <br/> 42 <br/> 50 <br/> 43 <br/> 183 </p>
-          <p>26.23% <br/> 22.95% <br/> 27.32% <br/> 23.50% <br/> 100% </p>
+          <p className="col-span-2">Akintan Senior Grammar School</p>
+          <p>48</p>
+          <p>26.23%</p>
+        </div>
+        <div className="grid grid-cols-4 pb-2">
+          <p className="col-span-2">Birrel Avenue Senior High School</p>
+          <p>42</p>
+          <p>22.95%</p>
+        </div>
+        <div className="grid grid-cols-4 pb-2">
+          <p className="col-span-2">Lagos City Senior College</p>
+          <p>50</p>
+          <p>27.32%</p>
+        </div>
+        <div className="grid grid-cols-4 pb-2">
+          <p className="col-span-2">Stadium Senior High School</p>
+          <p>43</p>
+          <p>23.50%</p>
+        </div>
+        <div className="grid grid-cols-4 pb-2">
+          <p className="col-span-2">Total</p>
+          <p>183</p>
+          <p>100%</p>
         </div>
         <hr />
       </div>
@@ -54,9 +74,14 @@ function DataAnalysis() {
         </div>
         <hr />
         <div className="grid grid-cols-4 py-2">
-          <p className="col-span-2">S.S 2 <br/> Total</p>
-          <p>183 <br/> 183 </p>
-          <p>100% <br/> 100% </p>
+          <p className="col-span-2">S.S 2</p>
+          <p>183</p>
+          <p>100%</p>
+        </div>
+        <div className="grid grid-cols-4 pb-2">
+          <p className="col-span-2">Total</p>
+          <p>183</p>
+          <p>100%</p>
         </div>
         <hr />
       </div>
@@ -76,9 +101,19 @@ function DataAnalysis() {
         </div>
         <hr />
         <div className="grid grid-cols-4 py-2">
-          <p className="col-span-2">Male <br/> Female	<br/>Total</p>
-          <p>87 <br/> 96 <br/> 183 </p>
-          <p>47.50% <br/> 52.50% <br/> 100% </p>
+          <p className="col-span-2">Male</p>
+          <p>87</p>
+          <p>47.50%</p>
+        </div>
+        <div className="grid grid-cols-4 pb-2">
+          <p className="col-span-2">Female</p>
+          <p>96</p>
+          <p>52.50%</p>
+        </div>
+        <div className="grid grid-cols-4 pb-2">
+          <p className="col-span-2">Total</p>
+          <p>183</p>
+          <p>100%</p>
         </div>
         <hr />
       </div>
@@ -98,9 +133,19 @@ function DataAnalysis() {
         </div>
         <hr />
         <div className="grid grid-cols-4 py-2">
-          <p className="col-span-2">16 - 20 <br/> Above 20 <br/>Total</p>
-          <p>155 <br/> 28 <br/> 183 </p>
-          <p>84.70% <br/> 15.30% <br/> 100% </p>
+          <p className="col-span-2">16 - 20</p>
+          <p>155</p>
+          <p>84.70%</p>
+        </div>
+        <div className="grid grid-cols-4 pb-2">
+          <p className="col-span-2">Above 20</p>
+          <p>28</p>
+          <p>15.30%</p>
+        </div>
+        <div className="grid grid-cols-4 pb-2">
+          <p className="col-span-2">Total</p>
+          <p>183</p>
+          <p>100%</p>
         </div>
         <hr />
       </div>
@@ -147,7 +192,7 @@ function DataAnalysis() {
         Based on observed means. <br />
         The error term is Mean Square(Error) = 12.530.<br />
         The mean difference is significant at the 0.05 level.<br />
-        From table 4.5, the Mean Difference (I-J) is 9.79 which is a positive value. This explains that the inductive method is effective in improving students’ achievement in mathematics.
+        From table 4.5, the Mean Difference (I-J) is 9.79 which is a positive value. This explains that the inductive method is effective in improving students' achievement in mathematics.
       </p>
 
       <p className='pt-6'>
@@ -186,11 +231,11 @@ function DataAnalysis() {
         Based on observed means.<br />
         The error term is Mean Square(Error) = 12.530.<br />
         The mean difference is significant at the 0.05 level.<br />
-        From table 4.6, the Mean Difference (I-J) is 3.49 which is a positive value. This explains that the deductive method is also effective in improving students’ achievement in mathematics.
+        From table 4.6, the Mean Difference (I-J) is 3.49 which is a positive value. This explains that the deductive method is also effective in improving students' achievement in mathematics.
       </p>
 
       <p className='pt-6'>
-        <span className="font-bold">Research Question Three:</span> Which of the methods is more effective on students’ performance in mathematics?
+        <span className="font-bold">Research Question Three:</span> Which of the methods is more effective on students' performance in mathematics?
       </p>
 
       <p className='pt-6 font-bold'>
@@ -234,14 +279,14 @@ function DataAnalysis() {
         Based on observed means.<br />
         The error term is Mean Square(Error) = 12.530.<br />
         The mean difference is significant at the 0.05 level.<br />
-        From table 4.7, the Mean Difference (I-J) between Deductive - Control is 3.49 while the Mean Difference (I-J) between Inductive - Control is 9.79, the mean difference between Inductive - Control is greater than the mean difference between Deductive - Control [9.79 > 3.49] at 0.05 level of significance. This explains that the Inductive method of teaching is more effective compared to the deductive method of teaching on students’ performance in mathematics.
+        From table 4.7, the Mean Difference (I-J) between Deductive - Control is 3.49 while the Mean Difference (I-J) between Inductive - Control is 9.79, the mean difference between Inductive - Control is greater than the mean difference between Deductive - Control [9.79 > 3.49] at 0.05 level of significance. This explains that the Inductive method of teaching is more effective compared to the deductive method of teaching on students' performance in mathematics.
       </p>
 
       <h2 className="uppercase">
         <span className="pr-4">4.4</span> research hypothesis
       </h2>
       <p className='pt-6 font-bold'>
-        There is no significant difference between the inductive and deductive methods of teaching on students’ achievement in mathematics.
+        There is no significant difference between the inductive and deductive methods of teaching on students' achievement in mathematics.
       </p>
 
       <p className='pt-6 font-bold'>
@@ -328,7 +373,7 @@ function DataAnalysis() {
       <p className='pt-6'>
         a. R Squared = 0.826 (Adjusted R Squared = 0.823)<br />
         b. Computed using alpha = 0.05<br />
-        From table 4.8.1, it was found that a significant effect of treatment on secondary school students’ academic achievement in Mathematics (F(2;179) = 411.42; p &lt;  0.05). Therefore, the R2= 0.826 which implies that 82.3% of the variance (in dependent variable) is accounted for by the treatment, the null hypothesis H0 was not accepted. To explore the magnitude of the significant effects across treatment groups, the estimated mean of the treatment was carried out and the result is presented in table 4.8.2.
+        From table 4.8.1, it was found that a significant effect of treatment on secondary school students' academic achievement in Mathematics (F(2;179) = 411.42; p &lt;  0.05). Therefore, the R2= 0.826 which implies that 82.3% of the variance (in dependent variable) is accounted for by the treatment, the null hypothesis H0 was not accepted. To explore the magnitude of the significant effects across treatment groups, the estimated mean of the treatment was carried out and the result is presented in table 4.8.2.
       </p>
       
       <p className='pt-6 font-bold'>
@@ -417,9 +462,9 @@ function DataAnalysis() {
       <p className='py-6'>
         The students that were taught using the inductive method of teaching and deductive method of teaching performed so well in the Mathematics Achievement Test, this shows the effectiveness of both methods in the teaching of mathematics topics, particularly Circle Geometry. Using either of these methods will help prepare them for their examinations. The inductive method explains how formulas were derived and how to apply them in solving mathematics problems as it involves moving from simple to complex, teaching the students from known concepts to unknown while the deductive method involves stating of the formulas and theorem then teaching how to apply them. The inductive method will be effective only on students who have the ability to memorize, students with long term memory.
         <br /><br />
-        This research discovered that though both the inductive and deductive teaching methods are effective in teaching senior secondary school students’ mathematics, the inductive method is more effective as it does not only assist students with special memorizing skill alone. All students regardless of their mental faculty will be able to learn all the concepts of the topic since the inductive method teaches from known to unknown concepts. The findings from this study supports that of Adeniyi & Akinoso (2019) who carried out research to investigate the effects of inductive method of teaching on secondary school students’ achievement in mathematics she found that the use of Inductive method has significant positive effect on students' academic achievement. The findings also supports that of Risnah (2018) who carried out research on the effectiveness of inductive approach in teaching phrases at the first year students of SMA Negeri 3 Pinrang she found out from her quasi-experimental, pre-test, post-test experimental and control design method which she used in carrying out her research that the inductive approach is the effective approach in teaching phrases at the first year students of SMA Negeri 3 Pinrang. Also the result of this study agreed with studies carried out by Barkl, Porter and Ginns (2012) and Jreisat (2023) which showed that the inductive teaching groups consistently outperformed the deductive teaching group on tests assessing mathematical achievement.
+        This research discovered that though both the inductive and deductive teaching methods are effective in teaching senior secondary school students' mathematics, the inductive method is more effective as it does not only assist students with special memorizing skill alone. All students regardless of their mental faculty will be able to learn all the concepts of the topic since the inductive method teaches from known to unknown concepts. The findings from this study supports that of Adeniyi & Akinoso (2019) who carried out research to investigate the effects of inductive method of teaching on secondary school students' achievement in mathematics she found that the use of Inductive method has significant positive effect on students' academic achievement. The findings also supports that of Risnah (2018) who carried out research on the effectiveness of inductive approach in teaching phrases at the first year students of SMA Negeri 3 Pinrang she found out from her quasi-experimental, pre-test, post-test experimental and control design method which she used in carrying out her research that the inductive approach is the effective approach in teaching phrases at the first year students of SMA Negeri 3 Pinrang. Also the result of this study agreed with studies carried out by Barkl, Porter and Ginns (2012) and Jreisat (2023) which showed that the inductive teaching groups consistently outperformed the deductive teaching group on tests assessing mathematical achievement.
         <br /><br />
-        This research disagrees with Olajumoke & Iyanda (2023) who carried out research to investigate the effects of inductive and deductive teaching strategies on students’ learning in basic general mathematics: implication for sustainable development and concluded that the deductive method is better approach on Students’ Learning in Basic General Mathematics: Implication for Sustainable Development, it may be viewed that the sample of the study comprised of students with better retention ability and skill to understand things explained in abstract.
+        This research disagrees with Olajumoke & Iyanda (2023) who carried out research to investigate the effects of inductive and deductive teaching strategies on students' learning in basic general mathematics: implication for sustainable development and concluded that the deductive method is better approach on Students' Learning in Basic General Mathematics: Implication for Sustainable Development, it may be viewed that the sample of the study comprised of students with better retention ability and skill to understand things explained in abstract.
       </p>
     </div>
   )

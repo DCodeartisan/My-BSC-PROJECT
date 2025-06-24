@@ -1,12 +1,8 @@
 function Introduction() {
   return (
     <div>
-      <h1 className="uppercase text-center">
-        chapter one
-      </h1>
-      <h1 className="uppercase text-center py-6">
-        introduction
-      </h1>
+      <h1 className="uppercase text-center">chapter one</h1>
+      <h1 className="uppercase text-center py-6">introduction</h1>
 
       <h2 className="uppercase">
         <span className="pr-4">1.1</span> introduction
@@ -28,7 +24,7 @@ function Introduction() {
         <br /><br />
         The inductive approach is a teaching and learning method that relies on the process of induction. In the realm of mathematics, this approach involves constructing a formula by using a sufficient number of concrete, actual, and real examples. When students are taught mathematics using this method, they show great interest and understanding at various levels, particularly at the elementary level. The inductive method is especially beneficial in teaching and learning algebra, geometry, trigonometry, and arithmetic. It begins with specific examples and proceeds to establish general rules and formulas, moving from concrete illustrations to abstract concepts, from known information to unknowns, and from simple to complex situations.
         <br /><br />
-        Deduction is the process by which a particular fact is derived from some generally known truth. Thus, in the deductive method of teaching the learner proceeds from general to particular, abstract to concrete and from formula to examples. Here a pre-established rule or formula is given to the learners and they are asked to solve the related problems by using that formula (Rajwinder, 2019). Therefore, in this method, the learner has to perform only calculations or simplify the substituted known values in the given formula to get the solution of the problem. According to Joseph London, “Deductive teaching secures first the learning of definition or law or rule, then carefully explains its meaning and lastly illustrates it fully by applying to fact.” Deductive reasoning is a process of confirming a rule or a hypothesis by showing that it will lead to something that is already assumed to be true. This is often misleading as a rule may work without a student finding out that it was an assumption that led to the confirmation of the rule. The student may not see that confirmation of the rule was the original intention. During the process, the student may completely forget the rule and change the topic to something irrelevant. This approach is primarily employed in the subjects of Algebra, Geometry, Arithmetic, and Trigonometry. It involves utilizing assumptions and educated guesses based on mathematical axioms. This method is commonly utilized for teaching mathematics at the secondary, higher secondary, or advanced levels (Malik, Muhammad & Quayyum, 2015).</p>
+        Deduction is the process by which a particular fact is derived from some generally known truth. Thus, in the deductive method of teaching the learner proceeds from general to particular, abstract to concrete and from formula to examples. Here a pre-established rule or formula is given to the learners and they are asked to solve the related problems by using that formula (Rajwinder, 2019). Therefore, in this method, the learner has to perform only calculations or simplify the substituted known values in the given formula to get the solution of the problem. According to Joseph London, "Deductive teaching secures first the learning of definition or law or rule, then carefully explains its meaning and lastly illustrates it fully by applying to fact." Deductive reasoning is a process of confirming a rule or a hypothesis by showing that it will lead to something that is already assumed to be true. This is often misleading as a rule may work without a student finding out that it was an assumption that led to the confirmation of the rule. The student may not see that confirmation of the rule was the original intention. During the process, the student may completely forget the rule and change the topic to something irrelevant. This approach is primarily employed in the subjects of Algebra, Geometry, Arithmetic, and Trigonometry. It involves utilizing assumptions and educated guesses based on mathematical axioms. This method is commonly utilized for teaching mathematics at the secondary, higher secondary, or advanced levels (Malik, Muhammad & Quayyum, 2015).</p>
 
         <h2 className="uppercase">
           <span className="pr-4">1.2</span> statement of the problem
@@ -41,13 +37,13 @@ function Introduction() {
           <span className="pr-4">1.3</span> purpose of the study
         </h2>
         <p className="py-6">
-          The main purpose of the study is to assess the effect of inductive and deductive methods of teaching on students’ achievement in mathematics. The purpose of this study includes the following:
+          The main purpose of the study is to assess the effect of inductive and deductive methods of teaching on students' achievement in mathematics. The purpose of this study includes the following:
           <ul className="list-decimal list-inside space-y-3 pt-3">
             <li>
-              To examine students’ achievement when exposed to an inductive method of teaching.
+              To examine students' achievement when exposed to an inductive method of teaching.
             </li>
             <li>
-              To examine students’ achievement in mathematics when exposed to the deductive method of teaching.
+              To examine students' achievement in mathematics when exposed to the deductive method of teaching.
             </li>
             <li>
               How do students' mathematical achievement levels differ when exposed to the inductive method compared to the deductive method?
@@ -67,7 +63,7 @@ function Introduction() {
               What is the effectiveness of the deductive method on students' achievement in mathematics?
             </li>
             <li>
-              Which of the methods is more effective on students’ performance in mathematics?
+              Which of the methods is more effective on students' performance in mathematics?
             </li>
           </ul>
         </p>
@@ -76,7 +72,7 @@ function Introduction() {
           <span className="pr-4">1.5</span> research hypothesis
         </h2>
         <p className="py-6">
-          H0: There is no significant difference between the inductive and deductive methods of teaching on students’ achievement in mathematics.
+          H0: There is no significant difference between the inductive and deductive methods of teaching on students' achievement in mathematics.
         </p>
 
         <h2 className="uppercase">
@@ -90,7 +86,7 @@ function Introduction() {
           <span className="pr-4">1.7</span> scope of the study
         </h2>
         <p className="py-6">
-          This study is only limited to examining the Effect of the Inductive and Deductive Methods of Teaching on Students’ Achievement in Mathematics in the Lagos state education district IV.
+          This study is only limited to examining the Effect of the Inductive and Deductive Methods of Teaching on Students' Achievement in Mathematics in the Lagos state education district IV.
         </p>
         <h2 className="uppercase">
           <span className="pr-4">1.8</span> limitations of the study
