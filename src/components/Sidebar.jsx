@@ -70,19 +70,19 @@ function Sidebar() {
             Abstract
           </Link>
           <Link to="/introduction" className="menu" onClick={handleClose}>
-            Introduction
+            Chapter One: Introduction
           </Link>
           <Link to="/literature-review" className="menu" onClick={handleClose}>
-            Literature Review
+          Chapter Two: Literature Review
           </Link>
           <Link to="/methodology" className="menu" onClick={handleClose}>
-            Methodology
+          Chapter Three: Methodology
           </Link>
           <Link to="/data-analysis" className="menu" onClick={handleClose}>
-            Data Analysis
+          Chapter Four: Data Analysis
           </Link>
           <Link to="/conclusion" className="menu" onClick={handleClose}>
-            Conclusion
+          Chapter Five: Conclusion
           </Link>
           <Link to="/references" className="menu" onClick={handleClose}>
             References
